@@ -54,6 +54,10 @@ if [ -f ~/.bashrc ]; then
    source ~/.bashrc
 fi
 
+# Configure Localization
+export LANGUAGE="ko_KR.UTF-8"
+export LC_ALL="C"
+
 # Configure PATH
 #  - These are line by line so that you can kill one without affecting the others.
 #  - Lowest priority first, highest priority last.
